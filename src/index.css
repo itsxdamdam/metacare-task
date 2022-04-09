@@ -9,23 +9,149 @@
 
 .container {
   display: flex;
-  padding: 10px 20px 20px 10px;
-  margin: 30px auto;
-  width: 80%;
+  /* padding: 10px 20px 20px 10px; */
+  /* margin: 30px auto; */
+  width: 100%;
 }
 
 .sidebar {
   border-right: 1px solid #ECEBF5;
-  padding-right: 10px;
+  padding: 10px 20px 0px 20px;
 }
 
 .top {
-  padding: 20px;
-  margin-bottom: 10px;
-  border: 2px solid #ECEBF5;
+  padding: 10px;
+  border: 1px solid #ECEBF5;
   border-radius: 8px;
 }
 
 .top > p {
   color: #696D8C;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 10px 0px;
+}
+
+.header-top {
+  padding: 0px 20px 10px 20px;
+  border-bottom: 1px solid #ECEBF5;
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-group {
+  display: flex;
+  justify-content: space-between;
+  background: #FAFAFC;
+  border-radius: 10px;
+  height: 50px;
+  width: 500px;
+}
+
+.search-group button {
+  border: none;
+  background: none;
+  color: #A3A3C2;
+  padding: 0px 10px;
+  cursor: pointer;
+}
+
+.search-group > input {
+  border: 0;
+  padding: 10px;
+  background: #FAFAFC;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.search-group > input:focus {
+  outline: none;
+}
+
+.right {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border: 1px solid #ECEBF5;
+  border-radius: 8px;
+  color: #92929D;
+}
+
+.right .icon {
+  padding-top: 5px;
+}
+
+.right .line {
+  width: 1.5px;
+  height: 25px;
+  background: #ECEBF5;
+  margin: 0px 10px;
+}
+
+.right .avatar {
+  display: flex;
+}
+
+.right .circle {
+  width: 25px;
+  height: 25px;
+  border: 1px solid #6837EF;
+  border-radius: 100%;
+}
+
+.right .down {
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.nav {
+  display: flex;
+  color: #696D8C;
+  width: 100%;
+  border-bottom: 1px solid #ECEBF5;
+}
+
+.nav-item {
+  padding: 20px;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: #696D8C;
+  cursor: pointer;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.esearch {
+  display: flex;
+  color: #A3A3C2;
+  border: 1px solid #E1E1EB;
+  border-radius: 8px;
+  padding: 0px 10px;
+}
+
+.esearch > input {
+  border: 0;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.esearch > input:focus {
+  outline: none;
+}
+
+.esearch button {
+  border: none;
+  background: none;
+  color: #A3A3C2;
+  cursor: pointer;
 }
